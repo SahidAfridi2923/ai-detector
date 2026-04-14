@@ -5,3 +5,6 @@ __pycache__/
 ml_model.pkl
 node_modules/
 .cache/
+final_data.csv
+cleaned_data.csv
+*.csv
