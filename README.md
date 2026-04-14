@@ -1,24 +1,41 @@
-# AI Interview Detector
+# 🚀 AI-Based Interview Answer Detection System
 
-# Features
-- Detect AI vs Human answers
-- Chrome Extension integration
-- NLP-based analysis using GPT-2
+An AI-powered system designed to detect AI-generated interview responses using Natural Language Processing (NLP) and Machine Learning techniques.  
+This project includes a Flask backend API and a Chrome Extension with voice support for real-time analysis.
 
-# Setup
+---
+Dataset not included due to size.
+Use your own dataset or sample data.
+---
 
-## Backend
-cd backend
-pip install -r requirements.txt
-python app.py
+## 🔍 Features
 
-## Extension
-1. Open chrome://extensions/
-2. Enable Developer Mode
-3. Click Load Unpacked
-4. Select extension folder
+- 🧠 Detect AI-generated vs Human-written text
+- 🌐 Chrome Extension for real-time analysis
+- 🎤 Voice input support (Speech-to-Text)
+- ⚡ Fast API using Flask
+- 📊 Feature-based ML model (perplexity + text patterns)
+- 🔄 End-to-end pipeline (data → model → deployment)
 
-## Usage
-- Select or paste answer
-- Click Analyze
-- View AI probability
+---
+
+## 🧠 Tech Stack
+
+- **Backend:** Python, Flask
+- **Machine Learning:** Scikit-learn (Logistic Regression)
+- **NLP:** GPT-2 Perplexity, Text Feature Engineering
+- **Frontend:** JavaScript (Chrome Extension)
+- **Libraries:** Pandas, NumPy, Transformers, Torch
+
+---
+
+## 📊 Model Details
+
+- Trained on **3000+ text samples**
+- Feature engineering includes:
+  - Perplexity score
+  - Text length
+  - Unique word count
+  - Repetition ratio
+- Achieved **~75–85% accuracy**
+
